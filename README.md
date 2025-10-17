@@ -13,4 +13,23 @@ A Python implementation of the classic *Asteroids* game, with modular components
 ## Requirements & Setup
 
 - This project uses **Python 3.x**.
-- You will also need the supporting libraries used in the project , `pygame` and `tkinter`. 
+- You will also need the supporting libraries used in the project , `pygame` and `tkinter`.
+- - **uv** installed  
+  If you don’t have `uv`, install it with:
+
+  ```bash
+  pip install uv 
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Dvdandrades/Asteroids.git
+   cd Asteroids
+
+2. Install dependencies with uv
+    ```bash
+    uv sync
+
+
